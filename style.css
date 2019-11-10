@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(36, 35, 43);
+}
+
+ul {
+  display: flex;
+  place-items: center;
+  width: 400px;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 160px;
+}
+
+li:hover {
+  color: blue;
+}
