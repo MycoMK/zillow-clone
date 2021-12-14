@@ -12,7 +12,7 @@
   padding-right: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 2px solid rgb(36, 35, 43);
+  
 }
 
 ul {
@@ -77,6 +77,8 @@ h2{
   
 }
 button{
+  
+  color: rgb(17, 21, 238);
   background-color:rgb(242, 242, 245) ;
   padding: 15px;
   
@@ -88,3 +90,10 @@ button:hover{
 }
 .seacrh:hover{
   color: rgb(249, 249, 252);
+}
+
+.down{ 
+  display: flex;
+  justify-content: space-around;
+ 
+}
