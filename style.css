@@ -29,12 +29,29 @@ li {
 
 img {
   width: 100%;
+ 
 }
 
+.imgmain {
+  width: 100%;
+  height: 600px;
+}
 .logo {
   width: 160px;
 }
 
 li:hover {
   color: blue;
+}
+
+.word{
+  
+  padding-left: 700px;
+  padding-bottom: 1000px;
+  position: absolute;
+  /* margin: 0 auto; */
+  /* display: flex; */
+
+ 
+  
 }
